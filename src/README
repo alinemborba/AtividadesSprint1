@@ -1,0 +1,59 @@
+1. Baseado no Scrum Guide, qual o tempo máximo deveriam ter as seguintes
+cerimônias:
+a. Daily: A Daily é um evento de 15 minutos
+b. Planning: É limitado a um máximo de oito horas para um Sprint de um mês.
+c. Review: É limitada a um máximo de quatro horas para um Sprint de um mês.
+d. Retrospectiva: É limitada a um máximo de três horas para um Sprint de um mês.
+Para sprints mais reduzidos (menos de um mês), a duração as cerimônias, com excessão da Daily, é normalmente mais curta.
+Fonte: ken Schwaber e Jeff Sutherland. 2020.
+
+2. José iniciou sua jornada recentemente com git e não está conseguindo publicar
+seu arquivo README e a classe Product.js que acabou de criar. O erro do git dá
+a seguinte informação:
+Untracked Files:
+README
+Product.js
+Por que esse “erro” de “Untracked files” ocorreu e qual comando resolveria o
+problema?
+
+● Resposta: Esse erro aparece quando os arquivos da pasta não estão sendo rastreados (tracked), ainda.
+Para resolver este problema é preciso usar o código:
+git add README
+git add Product.js
+Assim os arquivos estarão na espera para serem commitados.
+Depois desse comando eles aparecerão como:
+Changes to be committed:
+new file: README
+new file: Product.js
+
+3. O time de desenvolvimento analisou e descobriu que o projeto está gerando
+arquivos pesados e desnecessários para serem commitados no repositório git.
+Em qual arquivo você deve incluir a lista de extensões para que esses arquivos
+desnecessários sejam desconsiderados?
+
+● Resposta: Para evitar arquivos pesados e desnecessários, as extensões devem ser listadas no arquivo "gitignore".
+
+
+4. Com suas palavras, descreva as vantagens de utilizar o Scrum no seu projeto.
+● Resposta: Acredito que uma das principais vantagens de utilizar o Scrum nos projetos é uma melhor comunicação do time,
+pois a metodologia proporciona uma visibilidade clara do andamento do projeto. As cerimônias realizadas
+mantém o time integrado, e ajudam a entender quais foram os pontos positivos e negativos da última sprint, sendo mais facil compreender
+quais os pontos de melhorias para as próximas sprints.
+A metodologia também melhora a comunicação do time com o cliente, sendo a obtenção de feedbacks muito mais rápida, podendo assim
+haver mudanças importantes no projeto, a medida que está sendo desenvolvido.
+
+5. José foi promovido de seu cargo anterior e se tornou o novo Product Owner do
+time, quais são suas novas responsabilidades como PO?
+
+● Resposta: O Product Owner é responsável por maximizar o valor do produto resultante do trabalho da Scrum Team.
+É também responsável pela gestão eficaz do Product Backlog, como por exemplo, criar e comunicar claramente os itens do Product Backlog,
+e assegurar que o Product Backlog é transparente, visível e compreendido.
+Para que o Product Owner tenha sucesso, toda a organização deve respeitar as suas decisões.
+Estas decisões são visíveis no conteúdo e ordenação do Product Backlog e através do Increment inspecionável na Sprint Review.
+Fonte: Ken Schwaber e Jeff Sutherland. 2020.
+
+
+
+Referências:
+SCHWABER, Ken; SUTHERLAND, Jeff. Guia do Scrum: Um guia definitivo para o Scrum: As regras do jogo.
+(Disponível em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Portuguese-European.pdf) (2020).
